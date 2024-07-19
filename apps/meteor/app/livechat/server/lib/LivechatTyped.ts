@@ -248,11 +248,6 @@ class LivechatClass {
 	}
 
 	async closeRoom(params: CloseRoomParams): Promise<void> {
-		console.log(`CLOSE_ROOM`);
-		console.log(`CLOSE_ROOM`);
-		console.log(`CLOSE_ROOM`);
-		console.log(`CLOSE_ROOM`);
-
 		const { comment } = params;
 		const { room } = params;
 
